@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> expo myapp</h1>
+    <p><a href="myapp://">myapp only</a></p>
+    <p><a href="myapp:///path/into/app?hello=world&goodbye=now">myapp with path</a></p>
+
+    <p><a data-app="myapp:///path/into/app?hello=world&goodbye=now" data-store-android="hk.edu.hsuhk.authenticator" data-store-ios="1483879180" class="button">myapp without href2</a></p>
+    <p><a href="myapp:///path/into/app?hello=world&goodbye=now" data-app="myapp:///path/into/app?hello=world&goodbye=now" data-store-android="hk.edu.hsuhk.authenticator" data-store-ios="1483879180" class="button">myapp</a></p>
+    <p><a href="http://www.ebay.com/sch/i.html?_nkw=You%20don%27t%20know%20JS" data-app="ebay://www.ebay.com/sch/i.html?_nkw=You%20don%27t%20know%20JS" data-store-android="hk.edu.hsuhk.authenticator" data-store-ios="1483879180" class="button">without myapp (something)</a></p>
+    <p><a href="http://www.ebay.com/sch/i.html?_nkw=You%20don%27t%20know%20JS" data-app="ebay://www.ebay.com/sch/i.html?_nkw=You%20don%27t%20know%20JS" data-store-android="com.ebay.mobile" data-store-ios="282614216" class="button">Search on Ebay</a></p>
+    <p><a data-app="ebay://www.ebay.com/sch/i.html?_nkw=You%20don%27t%20know%20JS" data-store-android="com.ebay.mobile" data-store-ios="282614216" class="button">Search on Ebay</a></p>
+    <hr>
+    <p><a href="expo:///path/into/app?hello=world&goodbye=now">expo with path</a></p>
+    
+    <p><a href="expo://">expo only</a></p>
+    <p><a href="exp://exp.host/@community/with-webbrowser-redirect">Published app in Expo client:</a></p>
+    <p><a href="exp://exp.host/@cyruschan1225/deeplink">exp://exp.host/@cyruschan1225/deeplink</a></p>
+    <p><a href="exp://exp.host/@cyruschan1225/deeplink/--/app?hello=world&goodbye=now">exp://exp.host/@cyruschan1225/deeplink/--/app?hello=world&goodbye=now</a></p>
+    <p><a href="exp://exp.host/@cyruschan1225/deeplink//path/into/app?hello=world&goodbye=now">Published app in Expo client:Deep Link with data</a></p>
+    <p><a href="expo:///path/into/app?hello=world&goodbye=now">Published app in Expo client:Deep Link with data2</a></p>
+    <p><a href="exp://exp.host/@cyruschan1225/deeplink/app?hello=world&goodbye=now">Published app in Expo client:Deep Link with data 3</a></p>
+    <p><a href="exp://localhost:19000">Development</a></p>
+    <p><a href="exp://localhost:19000/--/details/3">Development2</a></p>
+    <p><a href="exp://192.168.8.27:19000">Development3 with path</a></p>
+    <p><a href="exp://192.168.8.27:19000/--/app?hello=world&goodbye=now">exp://192.168.8.27:19000/--/app?hello=world&goodbye=now"</a></p>
+    <hr>
+    <p><a href="noapp://">no app exists</a></p>
+    <p><a href="exp://exp.host/@cyruschan1225/deeplink/--/app?hello=world&goodbye=now" data-app="exp://exp.host/@cyruschan1225/deeplink/--/app?hello=world&goodbye=now" data-store-android="hk.edu.hsuhk.authenticator" data-store-ios="1483879180" class="button">hsuhk</a></p>
+    <p><a data-app="exp://exp.host/@cyruschan1225/deeplink/--/app?hello=world&goodbye=now" data-store-android="hk.edu.hsuhk.authenticator" data-store-ios="1483879180" class="button">hsuhk without href</a></p>
+    <p><a data-app="whatsapp://send?text=deep-link.js%20is%20awesome" data-store-android="com.whatsapp" data-store-ios="310633997" class="button">Send message via WhatsApp</a></p>
+    <p><a data-app="myapp://send?text=deep-link.js%20is%20awesome" data-store-android="hk.edu.hsuhk.authenticato" data-store-ios="1483879180" class="button">Send message via hsuhk</a></p>
+    <script src="js/deep-link.js"></script>
+
+</body>
+</html> 
